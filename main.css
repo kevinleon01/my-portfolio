@@ -5,6 +5,7 @@
 
 
 
+
 html{
   background-color: #eee;
 }
@@ -13,8 +14,12 @@ body{
   margin: 0;
   font-family: 'Source Code Pro';
   font-size: 16px;
-  /* color: #111; */
   background-color: #eee;
+}
+
+html, body {
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: none;
 }
 
 h2, h3{
